@@ -1,5 +1,5 @@
 # Build and run this container with a commnad like this below:
-# docker build -t foobar:0.0.0 . && docker run --rm -it foobar:0.0.0
+# python setup.py sdist && docker build -t foobar:0 . && docker run --rm -ti foobar:0
 
 FROM debian:latest
 
